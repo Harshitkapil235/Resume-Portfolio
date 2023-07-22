@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn{
+   @apply bg-orange-500 px-3 py-2 rounded-md capitalize font-bold hover:opacity-80;
+}
+
+.tittle{
+    @apply text-3xl md:text-4xl font-bold leading-snug ;
+}
+.blob1{
+@apply w-80 h-80 bg-orange-500 absolute top-0 -left-5 -z-10 rounded-full blur-2xl opacity-40 overflow-hidden
+}
+.blob2{
+    @apply w-80 h-80 bg-green-500 absolute bottom-10 right-0 -z-10 rounded-full blur-2xl opacity-40 overflow-hidden
+}
+
+.background{
+    @apply'bg-gradient-to-r from-blue-500 to bg-purple-500'
+ 
+}
