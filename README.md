@@ -1,2 +1,3 @@
 # Resume-Portfolio
-My 
+My Resume using HTML Tailwind CSS and Javascript
+
